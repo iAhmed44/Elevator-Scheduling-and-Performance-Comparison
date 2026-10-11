@@ -1,0 +1,93 @@
+====================================================
+ TEAM 4 – TEAM INFORMATION
+====================================================
+
+Course:              EE367
+Semester / Year:     Spring 2025
+Instructor:          ENG. Khalid 
+Project Title:       Elevator Control System – FCFS vs LOOK Simulation
+
+----------------------------------------------------
+ TEAM MEMBERS
+----------------------------------------------------
+
+1) Name: Ahmad Abdullah Alghamdi
+   Student ID: 2339540
+   Email: aalghamdi4288@stu.kau.edu.sa
+ 
+
+2) Name: Ahmed Abdullatif Alghamdi
+   Student ID: 2237826
+  
+
+3) Name: Maher Alsulami
+   Student ID: 2236505
+
+
+4) Name: Jehad Jilan
+   Student ID: 2237358
+
+
+----------------------------------------------------
+ WORK BREAKDOWN SUMMARY
+----------------------------------------------------
+- Algorithm design & implementation:
+  Responsible: Team 4 (shared)
+  Details:
+  - Designed and implemented the FCFS and LOOK scheduling algorithms
+    for a 4-floor elevator system.
+  - Defined the Request data structure and state tracking for both
+    algorithms (pending, active, completed).
+  - Implemented elevator movement logic, request pickup/drop-off handling,
+    and direction control for LOOK.
+
+- GUI design & visualization:
+  Responsible: Team 4 (shared)
+  Details:
+  - Built a Tkinter-based GUI showing both elevators side by side.
+  - Implemented real-time floor indicators and request list displays.
+  - Added a comparison panel for KPIs and a clean layout for user interaction
+    (Start button, status messages, etc.).
+
+- Performance measurement & analysis:
+  Responsible: Team 4 (shared)
+  Details:
+  - Instrumented the simulation to record execution time, average wait time,
+    throughput, steps, distance, CPU utilization, and memory usage.
+  - Implemented timing based on event-driven callbacks rather than blocking loops.
+  - Summarized results into a comparison table and bar chart (FCFS vs LOOK).
+
+- Testing & validation:
+  Responsible: Team 4 (shared)
+  Details:
+  - Ran multiple simulations with randomized requests to verify correct
+    completion of all requests for both algorithms.
+  - Checked edge cases (same start/destination floors, opposing directions,
+    boundary floors) to ensure stable behavior.
+  - Verified that KPIs update correctly only after simulation completion.
+
+- Report / documentation:
+  Responsible: Team 4 (shared)
+  Details:
+  - Wrote README and KPI explanation (Time, Avg Wait Time, Throughput,
+    Distance, Steps, Memory, CPU Utilization, Completed Requests).
+  - Documented how to run the program and interpret the FCFS vs LOOK
+    performance comparison.
+  - Prepared tables and figures (including the KPI comparison and bar chart)
+    for the final report.
+
+----------------------------------------------------
+ TOOLS & TECHNOLOGIES
+----------------------------------------------------
+Programming Language:  Python 3
+
+Libraries / Packages:  
+  - tkinter (GUI)
+  - time, random, threading, dataclasses (core logic)
+  - psutil (optional, CPU and memory monitoring)
+  - resource (Unix-like systems, memory measurement fallback)
+  - other standard-library modules as needed
+
+IDE / Editor:         
+  - VS Code
+
